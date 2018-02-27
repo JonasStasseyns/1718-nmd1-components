@@ -2,15 +2,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-column {
+    height: 100vh;
+    width: 33.3333%;
+    float: left;
+}
+
 /*start buttons*/
 .btn {
-    width: 200px;
+    width: 50%;
     height: 50px;
     border: 0;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     color: white;
+    display: block;
+    margin: 2% auto;
 }
 
 .btn-primary {
@@ -28,17 +36,13 @@ body {
 }
 
 .btn-container {
-    width: 50%;
-    height: 10%;
-    text-align: center;
-    position: absolute;
-    left: 25%;
-    top: 40%;
+    padding: 35vh 0;
 }
 /*end buttons*/
 
 /*start card*/
 .card {
+    margin: 20vh auto;
     width: 250px;
     height: 400px;
     box-shadow: 1px 1px 10px grey;
@@ -55,3 +59,29 @@ body {
     padding: 10px;
 }
 /*end card*/
+/*start alert*/
+.alert {
+    margin: 1vh auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.alert-default {
+    background-color: #CADAC4;
+    border: 1px solid #3B763D;
+    color: #3B763D;
+}
+.alert-warning {
+    background-color: #FDF8E3;
+    border: 1px solid #8A6C3A;
+    color: #8A6C3A;
+}
+.alert-danger {
+    background-color: #F2DEDF;
+    border: 1px solid #A84441;
+    color: #A84441;
+}
+.alerts {
+    padding: 33vh 0;
+}
+/*end alert*/
