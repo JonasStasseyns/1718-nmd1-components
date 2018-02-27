@@ -1,3 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*start buttons*/
 .btn {
     width: 200px;
     height: 50px;
@@ -5,14 +10,18 @@
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+    color: white;
 }
 
 .btn-primary {
     background-color: #0D5DCF;
-    color: white;
 }
 
 .btn-secondary {
+    background-color: #acacac;
+}
+
+.btn-ghost {
     background-color: white;
     border: 1px solid #acacac;
     color: #acacac;
@@ -25,4 +34,24 @@
     position: absolute;
     left: 25%;
     top: 40%;
-}/**/
+}
+/*end buttons*/
+
+/*start card*/
+.card {
+    width: 250px;
+    height: 400px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.card-image {
+    background: url(../images/seattle-2534686_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+
+.card-content {
+    padding: 10px;
+}
+/*end card*/
